@@ -1,0 +1,167 @@
+/* Styling for the places to visit website */
+
+/* color pattern
+  #687864 - dark greyish lime green
+  #31708E - dark blue
+  #5085A5 - lighter dark blue
+  #8FC1E3 - very soft blue
+  #F7F9FB - light greyish blue
+*/
+
+
+body {
+  background-color: #8FC1E3;
+  border-width: 10px;
+  border-color: #687864;
+  font-size: 16pt;
+  font-family: times;
+
+}
+
+header {
+  background-color: #31708E;
+  color: #F7F9FB;
+  text-align: left;
+  text-indent: 10px;
+
+}
+
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+
+}
+
+/* navigation styling */
+nav {
+
+  background-color: #5085A5;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  color: #F7F9FB;
+}
+
+nav ul li {
+  text-align: left;
+  float: left;
+  display: inline;
+  text-decoration: none;
+  width: 10%;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.center{
+  text-align: center;
+}
+
+}
+.footer {
+  text-align: center;
+  background-color: #31708E;
+  color: #F7F9FB;
+  padding: 20px;
+
+}
+
+.descr {
+  padding: 20%;
+  text-align: center;
+
+}
+
+/*left column styling */
+.left-col {
+  float: left;
+  width: 72%;
+}
+
+.left-col2 {
+  float: left;
+  width: 25%;
+}
+
+/* right column styling */
+.right-col {
+  float: right;
+  width: 24%;
+}
+
+.right-col2 {
+  float: right;
+  width: 75%;
+  height: 100%;
+}
+
+.right-col p {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* right align */
+.al-right {
+  float: right;
+}
+
+/* Sets a row to make space between sections */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact{
+  background-color: #687864;
+  padding: 60px;
+  margin-top: 20px;
+  color: #F7F9FB;
+}
+
+textarea {
+  width: 300px;
+  height: 50em;
+  background-color: #687864;
+  color: #F7F9FB;
+}
+
+/* body section styling */
+.card {
+    background-color: #687864;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    color: #F7F9FB;
+}
+
+.card1 {
+    background-color: #687864;
+
+    padding: 60px;
+    margin-top: 20px;
+    color: #F7F9FB;
+}
+
+.card2 {
+  padding: 2px;
+  margin-top: 5px;
+  float: right;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .left-col, .right-col, .left-col2, .right-col2 {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
